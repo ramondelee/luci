@@ -19,7 +19,7 @@ define Package/luci-lib-docker
   SUBMENU:=6. Libraries
   TITLE:=Docker Engine API for LuCI
   URL:=https://github.com/lisaac/luci-lib-docker
-  DEPENDS:=@(aarch64||arm||x86_64) @HAS_FPU +luci-lib-jsonc
+  DEPENDS:=luci-lib-jsonc
   PKGARCH:=all
 endef
 
